@@ -1,0 +1,15 @@
+.asideLeft {
+    flex: 30%;
+    padding: 20px;
+    background-color: var(--color-gray-dark);
+    color: white;
+}
+
+.asideLeft img {
+    width: 100%;
+    filter: grayscale(100%)
+}
+
+.asideLeft img:hover {
+    filter: grayscale(0%);
+}

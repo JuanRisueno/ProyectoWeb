@@ -1,27 +1,22 @@
-@import "/css/header.css";
+@import "/css/colores.css";
 @import "/css/comun.css";
-@import "/css/nav.css";
+@import "/css/header.css";
+@import "/css/navbar.css";
+@import "/css/aside.css";
+@import "/css/principal.css";
 
-.asides{
-    display: flex;
-    flex-wrap: wrap;
-}
-.asideLeft {
-    width: 25%;
-    height: auto;
-}
-
-.asideLeft img {
-    width: 100%;
-}
-
-.asideRight{
-    width: 75%;
-    height: auto;
-    background-color: chartreuse;
-}
 
 footer {
     width: 100%;
-    background-color:blue;
+    background-color: var(--color-primario-oscuro);
+}
+
+@media screen and (max-width: 700px) {
+    .navbar, .row {
+        flex-direction: column;
+    }
+
+    .principal img {
+        width: 40%;
+    }
 }

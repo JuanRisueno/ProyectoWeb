@@ -1,8 +1,27 @@
 header {
-    width: 100%;
+    align-items: center;
     text-align: center;
+    padding: 60px;
+    background-image: url("../imagenes/bannerrock&roll.jpeg");
+    background-position: 0% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.headerLogo {
-    height: 15em;
+header h1 {
+    font-size: 40px;
+    margin: 0 0 20px;
+
+}
+
+header p{
+    margin: 0 0 10px;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
 }
