@@ -10,7 +10,7 @@
     padding: 20px;
 }
 
-.principal img{
+.principalImg {
     width: 20%;
 }
 
@@ -19,4 +19,28 @@
     font-size: x-large;
 }
 
+.mejoresrock {
+    padding-top: 20px;
+}
 
+.botonmejoresrock {
+    display: flex;
+}
+
+.botonmejoresrock a {
+    color: white;
+    background-color: var(--color-primario-oscuro); 
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.botonmejoresrock a:hover {
+    background-color: black;
+}
+
+.videoyoutube {
+    margin-top: 150px;
+}
