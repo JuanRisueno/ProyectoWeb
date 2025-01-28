@@ -34,13 +34,23 @@
     text-decoration: none;
     text-align: center;
     border-radius: 10px;
-
 }
 
 .botonmejoresrock a:hover {
     background-color: black;
 }
 
-.videoyoutube {
-    margin-top: 150px;
+/*.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;  Esta línea ofrece compatibilidad para IE6 y puede eliminarse 
+	position: relative;
 }
+.video-responsive iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}*/
