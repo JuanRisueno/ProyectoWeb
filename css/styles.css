@@ -1,0 +1,27 @@
+@import "/css/header.css";
+@import "/css/comun.css";
+@import "/css/nav.css";
+
+.asides{
+    display: flex;
+    flex-wrap: wrap;
+}
+.asideLeft {
+    width: 25%;
+    height: auto;
+}
+
+.asideLeft img {
+    width: 100%;
+}
+
+.asideRight{
+    width: 75%;
+    height: auto;
+    background-color: chartreuse;
+}
+
+footer {
+    width: 100%;
+    background-color:blue;
+}
