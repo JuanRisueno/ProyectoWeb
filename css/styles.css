@@ -20,5 +20,8 @@
         width: 80%;
     }
 
+    .video-responsive iframe {
+        top:10px;
+    }
     
 }
