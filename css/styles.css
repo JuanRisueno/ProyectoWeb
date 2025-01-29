@@ -8,7 +8,7 @@
 
 
 @media screen and (max-width: 700px) {
-    .navbar, .row {
+    .navbar, .row, .botonmejoresrock {
         flex-direction: column;
     }
 
@@ -19,4 +19,6 @@
     .mejoresrock img {
         width: 80%;
     }
+
+    
 }
