@@ -10,6 +10,11 @@
     padding: 20px;
 }
 
+.principal h1 {
+    font-size: xx-large;
+    text-align: left;
+}
+
 .principalGen {
     width: 20%;
 }
