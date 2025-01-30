@@ -1,0 +1,51 @@
+.rowQuienesSomos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rowQuienesSomos p {
+    font-size: large;
+}
+
+.rowQuienesSomos h1 {
+    font-size: x-large;
+    text-align: center;
+}
+
+.componente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primario);
+    padding: 20px;
+    gap:20px;
+}
+
+.textComponente{
+    width: 40%;
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+.textDiscografia {
+    padding-right: 100px;
+}
+
+.imgComponente img {
+    max-height: 300px;
+}
+
+@media screen and (max-width: 700px) {
+    .componente {
+        flex-direction: column;
+    }
+
+    .componente.dos {
+        flex-direction: column-reverse;
+    }
+
+    .textComponente {
+        width: 100%;
+    }
+}
+

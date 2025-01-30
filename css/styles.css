@@ -5,10 +5,13 @@
 @import "/css/aside.css";
 @import "/css/principal.css";
 @import "/css/footer.css";
+@import "/css/quienessomos.css";
+
+
 
 
 @media screen and (max-width: 700px) {
-    .navbar, .row, .boton {
+    .navbar, .row, .boton .componente {
         flex-direction: column;
     }
 
@@ -18,5 +21,5 @@
 
     .mejoresrock img {
         width: 80%;
-    }  
+    }
 }

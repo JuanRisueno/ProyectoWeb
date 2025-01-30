@@ -16,6 +16,7 @@ header h1 {
 
 header p{
     margin: 0 0 0px;
+    font-weight: bold;
 }
 
 header div {

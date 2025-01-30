@@ -23,3 +23,7 @@
 .botonArribaAsides {
     margin-top: 20px;
 }
+
+.asideIndex p {
+    font-size: large;
+}
