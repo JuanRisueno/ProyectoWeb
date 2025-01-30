@@ -1,21 +1,25 @@
-.asideLeft {
+.asideIndex {
     flex: 30%;
     padding: 20px;
     background-color: var(--color-gray-dark);
     color: white;
 }
 
-.asideLeft img {
+.asideIndex img {
     width: 100%;
     filter: grayscale(100%);
     margin: 20px 0px auto
     
 }
 
-.asideLeft img:first-child {
+.asideIndex img:first-child {
   margin: 0 auto
     
 }
-.asideLeft img:hover {
+.asideIndex img:hover {
     filter: grayscale(0%);
+}
+
+.botonArribaAsides {
+    margin-top: 20px;
 }
