@@ -15,6 +15,14 @@ img {
     border-radius: 10px;
 }
 
+p {
+    font-size: large;
+}
+
+h1 {
+    font-size: x-large;
+}
+
 .boton {
     display: flex;
 }
