@@ -10,3 +10,24 @@ body {
 img {
     border-radius: 10px;
 }
+
+.boton {
+    display: flex;
+}
+
+.boton a {
+    color: white;
+    background-color: var(--color-primario-oscuro); 
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.boton a:hover {
+    background-color: black;
+}
+
+.botonUltimo a{
+    margin-bottom: 0px;
+}
