@@ -33,7 +33,6 @@
 	position: relative;
     width: 100%;
     height: 100%;
-    filter: grayscale(100%);
 }
 .video-responsive iframe {
 	position: absolute;
@@ -45,7 +44,3 @@
     max-height: 630px;
     max-width: 1120px;
 }
-
-.video-responsive:hover {
-    filter: grayscale(0%)
-} 
