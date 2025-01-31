@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .rowQuienesSomos {
     display: flex;
     flex-wrap: wrap;
@@ -12,8 +21,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-primario);
-    padding: 20px;
-    gap:20px;
+    padding: 10px 30px;
+    gap: 30px;
 }
 
 .textComponente{
@@ -23,21 +32,26 @@
 }
 
 .textDiscografia {
-    padding-right: 100px;
+    margin: 0px 20px;
 }
 
 .imgComponente img {
     max-height: 300px;
 }
 
+.botonArribaQS {
+    justify-content: left;
+}
+
 @media screen and (max-width: 700px) {
     .componente {
         flex-direction: column;
+        gap: 0;
+        padding: 10px 10px;
     }
 
     .imgComponente img {
         width: 100%;
-        margin: o auto;
     }
 
     .componente.dos {
@@ -48,14 +62,5 @@
         width: 100%;
         margin: 0 auto;
     }
-
-    /*.textDiscografia {
-        padding-right: 0px;
-    }
-    
-    .textComponente{
-        text-align: justify;
-        margin: 0px 0px;
-    }*/
 }
 
