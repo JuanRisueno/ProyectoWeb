@@ -11,7 +11,7 @@
 
 
 @media screen and (max-width: 700px) {
-    .navbar, .row, .boton .componente {
+    .navbar, .row, .boton {
         flex-direction: column;
     }
 

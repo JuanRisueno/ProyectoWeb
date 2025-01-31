@@ -35,12 +35,27 @@
         flex-direction: column;
     }
 
+    .imgComponente img {
+        width: 100%;
+        margin: o auto;
+    }
+
     .componente.dos {
         flex-direction: column-reverse;
     }
 
     .textComponente {
         width: 100%;
+        margin: 0 auto;
     }
+
+    /*.textDiscografia {
+        padding-right: 0px;
+    }
+    
+    .textComponente{
+        text-align: justify;
+        margin: 0px 0px;
+    }*/
 }
 
