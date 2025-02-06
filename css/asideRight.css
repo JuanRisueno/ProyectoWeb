@@ -1,0 +1,72 @@
+.asideRight {
+    flex: 20%;
+    padding: 20px;
+    background-color: var(--color-gray-dark);
+    color: white;
+}
+
+.asideRight img {
+    width: 100%;
+    /*filter: grayscale(100%);*/
+}
+
+.asideRight img:first-child {
+    margin: 0 auto;
+    
+}
+
+/*.asideRight img:hover {
+    filter: grayscale(0%);
+}*/
+
+.botonArribaAsides {
+    margin-top: 20px;
+}
+
+.asideRight p {
+    font-size: large;
+}
+
+.girar-carta {
+    margin: 0 0 20px 0;
+}
+
+.interior-girar-carta {
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+.girar-carta:hover .interior-girar-carta {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.carta-trasera {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-primario-oscuro);
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.boton-trasero-carta {
+    justify-content: center;
+}
+
+.boton-trasero-carta a {
+    color: black;
+    background-color: var(--color-primario);
+}
+
+.boton-trasero-carta a:hover {
+    background-color: black;
+    color: white;
+}

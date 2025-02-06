@@ -26,6 +26,13 @@ h1 {
     display: flex;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
 .boton a {
     color: white;
     background-color: var(--color-primario-oscuro);

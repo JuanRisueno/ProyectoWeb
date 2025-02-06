@@ -1,0 +1,75 @@
+.asideLeft {
+    flex: 20%;
+    padding: 20px;
+    background-color: var(--color-gray-dark);
+    color: white;
+}
+
+.botonArribaAsides {
+    margin-top: 20px;
+}
+
+.asideLeft h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.asideLeft p {
+    font-size: large;
+}
+
+.lista-conciertos a {
+    color: white;
+}
+
+.lista-conciertos a:hover {
+    background-color: var(--color-primario);
+    color: black;
+}
+
+.asideLeft ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    padding: 0;
+    text-align: center;
+}
+
+.asideLeft img{
+    width: 100%;
+}
+.primer-dia {
+    grid-column-start: 2;
+}
+
+.dias-semana {
+    background: var(--color-primario);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.dia-concierto {
+    font-weight: bold;
+    background: var(--color-primario);
+    color: black;
+    border-radius: 10px;
+}
+
+.lunes {
+    border-radius: 10px 0 0 10px;
+}
+
+.domingo {
+    border-radius: 0 10px 10px 0;
+}
+
+.portal a {
+    color: white;
+}
+
+.botonArribaAsides {
+    margin-top: 20px;
+}
