@@ -23,10 +23,6 @@
     margin-top: 20px;
 }
 
-.asideRight p {
-    font-size: large;
-}
-
 .girar-carta {
     margin: 0 0 20px 0;
 }
@@ -55,6 +51,15 @@
     color: white;
     border-radius: 10px;
     padding: 25px;
+    overflow: hidden;
+}
+
+.carta-trasera p{
+    font-size: 1vw;
+}
+
+.carta-trasera h1{
+    font-size: 0.1vw;
 }
 
 .boton-trasero-carta {
