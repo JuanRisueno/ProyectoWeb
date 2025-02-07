@@ -27,14 +27,14 @@ h1 {
 }
 
 a {
-    color: black;
+    color: var(--color-black);
     text-decoration: none;
     text-align: center;
     font-weight: bold;
 }
 
 .boton a {
-    color: white;
+    color: var(--color-gray-light);
     background-color: var(--color-primario-oscuro);
     padding: 14px 20px;
     text-decoration: none;
@@ -43,7 +43,7 @@ a {
 }
 
 .boton a:hover {
-    background-color: black;
+    background-color: var(--color-black);
 }
 
 .botonUltimo a {

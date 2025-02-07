@@ -2,7 +2,7 @@
     flex: 20%;
     padding: 20px;
     background-color: var(--color-gray-dark);
-    color: white;
+    color: var(--color-gray-light);
 }
 
 .botonArribaAsides {
@@ -19,12 +19,13 @@
 }
 
 .lista-conciertos a {
-    color: white;
+    color: var(--color-gray-light);
 }
 
 .lista-conciertos a:hover {
     background-color: var(--color-primario);
-    color: black;
+    color: var(--color-black);
+    border-radius: 3px;
 }
 
 .asideLeft ol {
@@ -45,7 +46,7 @@
 
 .dias-semana {
     background: var(--color-primario);
-    color: black;
+    color: var(--color-black);
     font-weight: bold;
     text-align: center;
     border-bottom: 1px solid;
@@ -54,7 +55,7 @@
 .dia-concierto {
     font-weight: bold;
     background: var(--color-primario);
-    color: black;
+    color: var(--color-black);
     border-radius: 10px;
 }
 
@@ -67,7 +68,7 @@
 }
 
 .portal a {
-    color: white;
+    color: var(--color-gray-light);
 }
 
 .botonArribaAsides {

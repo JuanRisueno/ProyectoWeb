@@ -1,8 +1,10 @@
 :root{
-    --color-primario: #EADBC8;
-    --color-primario-oscuro: #1E201E;
+    --color-primario: #EADBC8; /*Principal Claro*/
+    --color-primario-oscuro: #1E201E; /*Princial Oscuro*/
 
-    --color-gray-light: #f1f1f1;
+    --color-gray-light: #f1f1f1; /*Color Blanco*/
+    --color-black: #000000; /*Color Negro*/
     --color-gray: #ccc;
     --color-gray-dark: #333;
+    
 }
