@@ -12,14 +12,21 @@
 
 .principal h1 {
     text-align: left;
-}
-
-.principalGen {
-    width: 20%;
+    margin: 0 2vw;
 }
 
 .principal p {
     text-align: justify;
+    margin: 0 2vw;
+    padding: 1vw;
+}
+
+.principal .boton  {
+    margin: 0 2vw;
+}
+
+.principalGen {
+    width: 20%;
 }
 
 .mejoresrock {
