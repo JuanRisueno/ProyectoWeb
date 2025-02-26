@@ -14,7 +14,7 @@
 
 
 
-@media screen and ( width < 700px) { /* Esta es una nueva forma de hacer el media Query, solo con width*/
+@media screen and (width < 700px) { /* Esta es una nueva forma de hacer el media Query, solo con width*/
     .navbar, .row, .boton {
         flex-direction: column;
     }
