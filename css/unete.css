@@ -19,6 +19,7 @@ body {
     max-width: 100%;
     width: 100%;
     padding: 20px;
+    font-size: 1rem;
 }
 
 .informacionUsuario {
@@ -29,10 +30,142 @@ body {
     max-width: 100%;
     width: 100%;
 }
+
+.botonesUnete {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+.botonUnete {
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
+}
+
 .formunete {
     display: flex;
     column-gap: 15px;
 }
+
+.cajaFieldset {
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.cajaRadio {
+    display: flex;
+    gap: 10px
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--color-primario);
+    margin: 3px 0;
+
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: black;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="radio"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+}
+
+.cajaCheckbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkItem {
+    flex: 1 1 calc(33.33% - 10px);
+    box-sizing: border-box;
+    background-color: var(--color-primario-oscuro);
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--color-primario);
+    margin: 3px 0;
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-color: black;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="checkbox"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+}
+
+.cajaFieldset textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+}
+
+.fUnete {
+    font-size: 1rem;
+}
+
+.fUnete option {
+    font-size: 1rem;
+}
+
 .formunete .cajaInformacionUsuario input {
     position: relative;
     height: 40px;
@@ -48,6 +181,14 @@ body {
 @media screen and (width < 700px) {
     .formunete {
         flex-direction: column;
+        gap: 15px;
+    }
+
+    .botonUnete {
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+        height: 50px;
         gap: 15px;
     }
 }
