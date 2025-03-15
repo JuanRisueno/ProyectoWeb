@@ -29,7 +29,7 @@
     <main>
         <section class="contenedor">
             <h1 class="h1unete">Formulario de Registro</h1>
-            <form name="formunete" method="post" class="formunete" action="#">
+            <form name="formunete" method="get" class="formunete" action="#confirmacion">
                 <div class="informacionUsuario">
                     <div class="cajaInformacionUsuario">
                         <label for="nombre">Nombre*</label>
@@ -63,16 +63,16 @@
                         </fieldset>
                     </div>
                     <div class="cajaInformacionUsuario">
-                    </br><label for="fechaUnete">Fecha de Concierto elegida*:</label>
-                    <select class="fUnete" name="fechaUnete" id="fechaUnete" required>
-                        <option disabled selected>Elije fecha</option>
-                        <option value="4julio">4 de julio de 2025</option>
-                        <option value="12julio">12 de julio de 2025</option>
-                        <option value="15julio">15 de julio de 2025</option>
-                        <option value="20julio">20 de julio de 2025</option>
-                        <option value="31julio">31 de julio de 2025</option>
-                    </select>
-                </div>
+                        </br><label for="fechaUnete">Fecha de Concierto elegida*:</label>
+                        <select class="fUnete" name="fechaUnete" id="fechaUnete" required>
+                            <option disabled selected>Elije fecha</option>
+                            <option value="4julio">4 de julio de 2025</option>
+                            <option value="12julio">12 de julio de 2025</option>
+                            <option value="15julio">15 de julio de 2025</option>
+                            <option value="20julio">20 de julio de 2025</option>
+                            <option value="31julio">31 de julio de 2025</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="informacionUsuario">
                     <div class="cajaInformacionUsuario">
@@ -139,13 +139,33 @@
                         <input class="botonUnete" type="reset" value="Borrar">
                     </div>
                 </div>
-                </div>
             </form>
+            <div id="confirmacion">
+                <h3>Formulario enviado</h3>
+                <p>Tu formulario se ha enviado correctamente.</p>
+                <a href=""><button>Aceptar</button></a>
+            </div>
+            
+            <div class="overlay"></div>
         </section>
     </main>
     <footer>
-        <p>&copy;RisuProfesional</p>
-        </p>
+        <div class="social-links">
+            <a class="footersocialicon" href="https://instagram.com"><img src="/imagenes/instagram.png"
+                    alt="instagram"></a>
+            <a class="footersocialicon" href="https://X.com"><img src="/imagenes/X.png" alt="X"></a>
+            <a class="footersocialicon" href="https://facebook.com"><img src="/imagenes/facebook.png"
+                    alt="facebook"></a>
+            <a class="footersocialicon" href="https://spotify.com"><img src="/imagenes/spotify.png" alt="spotify"></a>
+        </div>
+        <div class="legal-links">
+            <a href="#">Política de Privacidad |</a>
+            <a href="#">Términos y Condiciones |</a>
+            <a href="#">Aviso Legal</a>
+        </div>
+        <div class="footer-text">
+            &copy;RisuProfesional. Todos los derechos reservados.
+        </div>
     </footer>
 
 </body>

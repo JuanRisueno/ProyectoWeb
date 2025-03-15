@@ -1,6 +1,17 @@
 footer {
     padding: 10px;
     text-align: center;
-    background-color: var(--color-black);
+    background-color: var(--color-primario-oscuro);
     color: var(--color-gray-light);
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+}
+
+.legal-links a {
+    color: var(--color-gray-light);
+
 }
