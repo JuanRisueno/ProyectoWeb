@@ -61,7 +61,7 @@ body {
 input[type="radio"] {
     -webkit-appearance: none;
     appearance: none;
-    background-color: var(--color-primario);
+    background-color: white;
     margin: 3px 0;
 
     font: inherit;
@@ -116,7 +116,7 @@ input[type="radio"]:focus {
 input[type="checkbox"] {
     -webkit-appearance: none;
     appearance: none;
-    background-color: var(--color-primario);
+    background-color: white;
     margin: 3px 0;
     font: inherit;
     color: currentColor;
