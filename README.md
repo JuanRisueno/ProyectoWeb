@@ -29,4 +29,4 @@ Para compensar la falta de programación, exprimí el CSS al máximo:
 ### Sobre el autor
 Este proyecto fue un paso clave en mi formación como ASIR. Me enseñó que antes de usar herramientas automáticas, hay que dominar los cimientos y escribir código que sea limpio y fácil de leer para otros.
 
-**Juan Risueño**
+**Juan A. Risueño**
